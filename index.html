@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <div>
+    <div class="navigation">
+      <div class="nav-first">
+        <img src="images/logo.svg" alt="Website logo" />
+        </div>
+        <div class="whole-nav">
+          <div class="first-row">
+        <div class="dropdown">
+          <a class="nav-element" href="#"
+            >Features <img class="icon-arrow" src="images/icon-arrow-up.svg"
+          /></a>
+          <ul>
+            <li>
+              <a class="link" href="#"
+                ><img src="images/icon-todo.svg" alt="icon" class="icon" /> Todo
+                list</a
+              >
+            </li>
+            <li>
+              <a class="link" href="#"
+                ><img src="images/icon-calendar.svg" alt="icon" class="icon" />
+                Calendar</a
+              >
+            </li>
+            <li>
+              <a class="link" href="#"
+                ><img src="images/icon-reminders.svg" alt="icon" class="icon" />
+                Reminders</a
+              >
+            </li>
+            <li>
+              <a class="link" href="#"
+                ><img src="images/icon-planning.svg" alt="icon" class="icon" />
+                Planning</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="nav-element" href="#"
+            >Company <img class="icon-arrow" src="images/icon-arrow-up.svg"
+          /></a>
+          <ul class="second-list">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <a class="nav-element" href="#">Careers</a>
+        <a class="nav-element" href="#">About</a>
+      </div>
+      <div class="nav-second">
+        <a class="nav-element" href="#">Login</a>
+        <a class="nav-element btn" href="#">Register</a>
+      </div>
+    </div>
+  
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </div>
+    <section class="hero">
+      <div class="page-wrapper">
+        <div class="elements-container">
+          <img
+            src="images/image-hero-desktop.png"
+            alt="Main website picture"
+            class="big-picture-media"
+          />
+          <div class="text-box">
+            <h1 class="main-header">Make remote work</h1>
+            <p class="desc-text">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button class="btn-big">Learn more</button>
+            <div class="logos">
+              <img class="feature-logo" src="images/client-databiz.svg" />
+
+              <img class="feature-logo" src="images/client-audiophile.svg" />
+
+              <img class="feature-logo" src="images/client-meet.svg" />
+
+              <img class="feature-logo" src="images/client-maker.svg" />
+            </div>
+          </div>
+          <div class="image-box">
+            <img
+              src="images/image-hero-desktop.png"
+              alt="Main website picture"
+              class="big-picture"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Company Careers About Login Register Make remote work Get your team
+    in sync, no matter your location. Streamline processes, create team rituals,
+    and watch productivity soar. Learn more -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script> 
+  </body>
+</html>
